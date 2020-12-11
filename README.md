@@ -34,7 +34,7 @@ because otherwise those limit orders would execute).
 ### Task
 Initially you have an empty order book. Your task is to apply the updates and respond to queries as
 described under the "Input file" section.
-####Input file
+#### Input file
 There is a text file with:
 updates to the limit order book in the following format:
 u,\<price>,\<size>,bid - set bid size at \<price> to \<size> (\<size> shares in total are now being offered at
