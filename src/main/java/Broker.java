@@ -4,8 +4,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Broker {
-    public final TreeMap<Integer, Integer> asks = new TreeMap<>();
-    public final TreeMap<Integer, Integer> bids = new TreeMap<>();
+    private final TreeMap<Integer, Integer> asks = new TreeMap<>();
+    private final TreeMap<Integer, Integer> bids = new TreeMap<>();
 
     public void updateBook(String[] line) {
         if (line.length == 4) {
